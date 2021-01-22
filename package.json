@@ -1,0 +1,19 @@
+{
+  "name": "verbose-guacamole",
+  "version": "0.1.0",
+  "description": "A worldbuilding tool for writers who want absolute control.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminbhollon/verbose-guacamole.git"
+  },
+  "author": "Benjamin Hollon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/benjaminbhollon/verbose-guacamole/issues"
+  },
+  "homepage": "https://github.com/benjaminbhollon/verbose-guacamole#readme"
+}
