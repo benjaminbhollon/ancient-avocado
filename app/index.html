@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Verbose Guacamole</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-</head>
-<body style="background: white;">
-    <h1>Hello World!</h1>
+    <link rel="stylesheet" href="./src/global.css">
+  </head>
+  <body>
+    <header>
+      <h1>Verbose Guacamole</h1>
+      <button onclick="newWorld()">New World</button>
+      <button onclick="openWorld()">Open World</button>
+    </header>
     <p>
-        We are using node <script>document.write(process.versions.node)</script>,
-        Chrome <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.
+      We are using node <script>document.write(process.versions.node)</script>,
+      Chrome <script>document.write(process.versions.chrome)</script>,
+      and Electron <script>document.write(process.versions.electron)</script>.
     </p>
-</body>
+    <script src="./src/index.js"></script>
+  </body>
 </html>

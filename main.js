@@ -6,11 +6,12 @@ const { app, BrowserWindow } = require('electron')
 function createWindow () {
   const win = new BrowserWindow({
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      enableRemoteModule: true
     }
   });
 
-  win.loadFile('./app/');
+  win.loadFile('./app/index.html');
   win.maximize();
 }
 

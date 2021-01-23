@@ -17,9 +17,6 @@
     "url": "https://github.com/benjaminbhollon/verbose-guacamole/issues"
   },
   "homepage": "https://github.com/benjaminbhollon/verbose-guacamole#readme",
-  "dependencies": {
-    "yet-another-electron-pug": "^1.0.0"
-  },
   "devDependencies": {
     "electron": "^11.2.0"
   }
