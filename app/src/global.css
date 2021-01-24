@@ -18,5 +18,6 @@ body {
 }
 
 header {
-  background-color: #bd80ff
+  background-color: #bd80ff;
+  padding: 1em;
 }
