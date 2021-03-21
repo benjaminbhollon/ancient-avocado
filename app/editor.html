@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title id="titleElement">Untitled World | Ancient Avocado</title>
+    <title id="titleElement">Untitled Timeline | Ancient Avocado</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
     <link rel="stylesheet" href="./src/global.css">
     <link rel="stylesheet" href="./src/editor.css">
@@ -11,7 +11,12 @@
     <header>
       <h1 id="title" contenteditable spellcheck="false"></h1>
       <div id="summary" contenteditable spellcheck="false"></div>
+      <div>
+        <p><label>Start date: <input type="number" id="startDate"></label></p>
+        <p><label>End date: <input type="number" id="endDate"></label></p>
+      </div>
     </header>
+    <div id="timeline"></div>
     <button id="saveButton" onclick="save()">Save</button>
     <script src="./src/editor.js"></script>
   </body>

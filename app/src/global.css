@@ -14,10 +14,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f2e6ff
+  background-color: hsl(118, 72%, 90%)
 }
 
 header {
-  background-color: #bd80ff;
+  background-color: hsl(118, 72%, 79%);
   padding: 1em;
 }

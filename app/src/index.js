@@ -5,7 +5,14 @@ function newWorld() {
 }
 
 function openWorld() {
-  dialog.showOpenDialog({"filters": [{"name": "VerbGuac World", "extensions": ["vgw"]}]}).then(result => {
+  dialog.showOpenDialog({
+    "filters": [
+      {
+        "name": "Ancient Avocado Timeline",
+        "extensions": ["vgt"]
+      }
+    ]
+  }).then(result => {
     if (result.canceled !== true) {
       location.href = "./editor.html?f=" + encodeURIComponent(result.filePaths[0]);
     }
