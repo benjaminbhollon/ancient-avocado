@@ -1,22 +1,21 @@
 {
-  "name": "verbose-guacamole",
+  "name": "ancient-avocado",
   "version": "0.1.0",
-  "description": "A worldbuilding tool for writers who want absolute control.",
+  "description": "Timeline-building made easy.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjaminbhollon/verbose-guacamole.git"
+    "url": "git+https://github.com/benjaminbhollon/ancient-avocado.git"
   },
   "author": "Benjamin Hollon",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/benjaminbhollon/verbose-guacamole/issues"
+    "url": "https://github.com/benjaminbhollon/ancient-avocado/issues"
   },
-  "homepage": "https://github.com/benjaminbhollon/verbose-guacamole#readme",
+  "homepage": "https://github.com/benjaminbhollon/ancient-avocado#readme",
   "devDependencies": {
     "electron": "^11.2.0"
   }

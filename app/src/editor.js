@@ -9,7 +9,7 @@ var worldContentSaved = {};
 
 function populatePage() {
   worldContentSaved = JSON.stringify(worldContent);
-  document.getElementById("titleElement").innerText = worldContent.title + " | Verbose Guacamole";
+  document.getElementById("titleElement").innerText = worldContent.title + " | Ancient Avocado";
   document.getElementById("title").innerText = worldContent.title;
   document.getElementById("summary").innerText = (worldContent.summary !== undefined && worldContent.summary.length > 0 ? worldContent.summary : noSummaryMessage);
 }
